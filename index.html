@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/multiservicios/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multiservicios Eithan</title>
+  <script type="module" crossorigin src="/multiservicios/assets/index-aOL7s1Z2.js"></script>
+  <link rel="stylesheet" crossorigin href="/multiservicios/assets/index-3JaMPJ-H.css">
+</head>
+
+<body class="font-poppins">
+  <!-- NAVBAR CORPORATIVO INTERACTIVO FONDO BLANCO -->
+  <!-- NAVBAR CON FUENTE POPPINS GRUESA -->
+  <nav
+    class="font-poppins fixed top-0 left-0 w-full bg-white/95 backdrop-blur-lg text-negro z-50 shadow-[0_1px_10px_rgba(0,0,0,0.04)] transition duration-300">
+    <div class="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
+
+      <!-- FIXED: Añadido id="nav-logo" y clases para el desvanecimiento (opacity-0) -->
+      <a id="nav-logo" href="#bloque1"
+        class="text-xl font-extrabold tracking-tight text-negro uppercase transition-all duration-500 opacity-0 pointer-events-none group">
+        Multiservicios <span class="text-naranja group-hover:text-negro transition duration-300">Eithan</span>
+      </a>
+
+      <!-- MENÚ DE ESCRITORIO (Letras más gruesas y legibles) -->
+      <div class="hidden md:flex items-center gap-8 text-sm font-bold uppercase  text-gris">
+        <a href="#bloque1"
+          class="hover:text-naranja transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-naranja hover:after:w-full after:transition-all after:duration-300">
+          Inicio
+        </a>
+        <a href="#servicios"
+          class="hover:text-naranja transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-naranja hover:after:w-full after:transition-all after:duration-300">
+          Servicios
+        </a>
+        <a href="#carrusel-marcas"
+          class="hover:text-naranja transition-colors duration-300 relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-naranja hover:after:w-full after:transition-all after:duration-300">
+          Aliados
+        </a>
+
+        <!-- Botón de Acción Robusto -->
+        <a href="#formulario-contacto"
+          class="bg-verde hover:bg-negro text-white px-6 py-3 rounded-lg text-xs font-extrabold uppercase tracking-widest transition duration-300 shadow-sm hover:shadow-md cursor-pointer">
+          Cotizar Ahora
+        </a>
+      </div>
+
+      <!-- BOTÓN HAMBURGUESA RESISTENTE (Móviles) -->
+      <button id="hamburger-btn"
+        class="md:hidden p-2 text-gris hover:text-negro transition duration-200 focus:outline-none cursor-pointer"
+        aria-label="Abrir menú">
+        <svg xmlns="http://w3.org" class="h-6 w-6 transition-transform duration-300" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" id="hamburger-icon">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- MENÚ DESPLEGABLE MÓVIL POPPINS GRUESO -->
+    <div id="mobile-menu"
+      class="hidden md:hidden bg-white border-t border-gray-100 shadow-xl transition-all duration-300">
+      <div class="px-8 py-8 flex flex-col gap-5 text-sm font-bold uppercase  text-gris">
+        <a href="#bloque1" class="mobile-link py-1 hover:text-naranja transition duration-200">Inicio</a>
+        <a href="#servicios" class="mobile-link py-1 hover:text-naranja transition duration-200">Servicios</a>
+        <a href="#carrusel-marcas" class="mobile-link py-1 hover:text-naranja transition duration-200">Aliados</a>
+        <a href="#formulario-contacto"
+          class="mobile-link text-center bg-verde hover:bg-negro text-white py-3.5 rounded-lg font-extrabold uppercase text-xs tracking-widest transition duration-200 mt-2 shadow-sm">
+          Cotizar Ahora
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <main>
+
+
+    <!-- SECCIÓN 1: HERO (CON COMPOSICIÓN DE TEXTO + IMAGEN FLOTANTE ESTILO PNG) -->
+    <section id="bloque1" class="relative min-h-screen flex items-center overflow-hidden py-20 lg:py-0">
+
+      <!-- TU IMAGEN UTILIZADA COMO FONDO REAL -->
+      <img src="/multiservicios/assets/BLOQUE1-BNN2uAU1.png" alt="Fondo Multiservicios Eithan"
+        class="absolute inset-0 w-full h-full object-cover">
+
+      <!-- CAPA DE OPACIDAD -->
+      <div class="absolute inset-0 bg-white/70"></div>
+
+      <!-- CONTENEDOR EN DOS COLUMNAS -->
+      <div class="relative z-10 max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-2 items-center w-full">
+        <!-- COLUMNA IZQUIERDA -->
+        <div
+          class="w-full h-[300px] sm:h-[400px] lg:h-[520px] flex items-center justify-center pointer-events-none select-none">
+
+          <img src="/multiservicios/assets/LOGOS%20PNG%20-%204-B3FGD1nu.png" alt="Ilustración Multiservicios Eithan"
+            class="w-full h-full object-contain">
+        </div>
+        <!-- COLUMNA DERECHA: BLOQUE DE TEXTOS -->
+        <div class="space-y-4">
+          <!-- <h1 class="text-5xl md:text-6xl font-extrabold text-negro uppercase tracking-tight leading-tight">
+            Multiservicios Eithan
+          </h1> -->
+          <h2 class="text-2xl md:text-5xl font-semibold text-black leading-snug">
+            Soluciones integrales para la <span
+              class="text-naranja border-b-2 border-naranja/20 pb-0.5 font-bold">Industria y empresas</span>
+          </h2>
+          <p class="text-black text-sm md:text-base leading-relaxed max-w-xl">
+            Brindamos servicios de mantenimiento, construcción, limpieza y logística, con altos estándares de calidad,
+            seguridad y responsabilidad corporativa.
+          </p>
+
+          <div class="pt-4">
+            <a href="#formulario-contacto"
+              class="inline-block bg-verde hover:bg-negro text-white font-bold text-xs uppercase px-8 py-3.5 rounded-lg shadow-md transition duration-300 cursor-pointer">
+              Saber Más
+            </a>
+          </div>
+        </div>
+
+        <!-- COLUMNA DERECHA: IMAGEN CON EFECTO RECORTE SILUETA (PNG STYLE) -->
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- SECCIÓN DE SERVICIOS (CON ESTRUCTURA DE OPACIDAD IGUAL A LA PRIMERA) -->
+    <section class="relative w-full py-24 overflow-hidden flex items-center">
+
+      <!-- TU IMAGEN UTILIZADA COMO FONDO REAL (Al 100% de opacidad) -->
+      <img src="/multiservicios/assets/BLOQUE6-D5dXjlSe.png" alt="Fondo Servicios" class="absolute inset-0 w-full h-full ">
+
+      <!-- CAPA DE OPACIDAD (Filtro idéntico al bloque 1 para dar contraste) -->
+      <div class="absolute inset-0 bg-white/80"></div>
+
+      <!-- CONTENIDO DE LA SECCIÓN (Se posiciona al frente gracias al z-10) -->
+      <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+        <h2 class="text-4xl font-bold text-center text-negro mb-6">Nuestros Servicios</h2>
+
+        <!-- BARRA DE FILTROS INTEGRADA -->
+        <div class="flex flex-wrap justify-center gap-3 mb-12">
+          <button data-filter="Todos"
+            class="filter-btn px-5 py-2 rounded-full font-medium text-sm transition duration-300 bg-naranja text-white shadow-md cursor-pointer">Todos</button>
+          <button data-filter="Mantenimiento"
+            class="filter-btn px-5 py-2 rounded-full font-medium text-sm transition duration-300 bg-white border border-gray-200 text-gris hover:bg-naranja hover:text-white cursor-pointer">Mantenimiento</button>
+          <button data-filter="Limpieza"
+            class="filter-btn px-5 py-2 rounded-full font-medium text-sm transition duration-300 bg-white border border-gray-200 text-gris hover:bg-naranja hover:text-white cursor-pointer">Limpieza</button>
+          <button data-filter="Logística"
+            class="filter-btn px-5 py-2 rounded-full font-medium text-sm transition duration-300 bg-white border border-gray-200 text-gris hover:bg-naranja hover:text-white cursor-pointer">Logística</button>
+          <button data-filter="Construcción"
+            class="filter-btn px-5 py-2 rounded-full font-medium text-sm transition duration-300 bg-white border border-gray-200 text-gris hover:bg-naranja hover:text-white cursor-pointer">Construcción</button>
+        </div>
+
+        <!-- Contenedor dinámico controlado por JS -->
+        <div id="servicios" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+          <!-- Las tarjetas se generarán aquí automáticamente -->
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- SECCIÓN 3: CARRUSEL DE MARCAS -->
+    <section class="bg-gray-50 py-16 overflow-hidden border-t border-b border-gray-100">
+      <div class="max-w-7xl mx-auto px-6 mb-8 text-center">
+        <h2 class="text-3xl font-bold text-gray-800">Marcas que confían en nosotros</h2>
+        <p class="text-gray-500 text-sm mt-2">Respaldamos nuestras operaciones con aliados estratégicos del sector.</p>
+      </div>
+
+      <!-- Contenedor del Carrusel Infinito -->
+      <div class="relative w-full flex overflow-x-hidden group">
+        <!-- El contenedor se desplaza de forma continua y se pausa al hacer hover -->
+        <div id="carrusel-marcas" class="flex space-x-8 items-center whitespace-nowrap animate-infinite-scroll">
+          <!-- Los logos se inyectarán aquí mediante JavaScript -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SECCIÓN 4: CONTACTO Y FORMULARIO -->
+    <!-- SECCIÓN 4: CONTACTO Y FORMULARIO (CON FILTRO DE OPACIDAD HOMOGÉNEO) -->
+    <section class="relative w-full py-24 overflow-hidden flex items-center">
+
+      <!-- TU IMAGEN UTILIZADA COMO FONDO REAL (Al 100% de opacidad) -->
+      <img src="/multiservicios/assets/BLOQUE3-B5Hs7B3R.png" alt="Fondo Contacto" class="absolute inset-0 w-full h-full object-cover">
+
+      <!-- CAPA DE OPACIDAD (Filtro idéntico al bloque 1 y de servicios para dar contraste uniforme) -->
+      <div class="absolute inset-0 bg-white/60"></div>
+
+      <!-- CONTENIDO DE LA SECCIÓN (Se posiciona al frente gracias al z-10) -->
+      <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-5 gap-12 bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+
+          <!-- COLUMNA IZQUIERDA: INFORMACIÓN CORPORATIVA (Ocupa 2 de 5 columnas con tu color Negro Base) -->
+          <div
+            class="lg:col-span-2 bg-gray-900 p-8 lg:p-12 text-white flex flex-col justify-between relative overflow-hidden">
+            <!-- Decoración de fondo sutil con tu naranja corporativo -->
+            <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-naranja/15 rounded-full blur-2xl"></div>
+
+            <div>
+              <span class="text-naranja uppercase font-bold text-xs tracking-widest block mb-1">Atención
+                Corporativa</span>
+              <h2 class="text-3xl font-extrabold uppercase tracking-tight mt-2 mb-4">¿Listo para iniciar tu proyecto?
+              </h2>
+              <p class="text-gray-400 text-sm leading-relaxed font-normal">
+                Ponte en contacto con nuestro equipo experto para recibir una propuesta técnica y económica adaptada a
+                las necesidades de tu empresa.
+              </p>
+            </div>
+
+            <!-- Datos de Enlace Rápido con Iconos Reparados -->
+            <div class="my-8 space-y-6 relative z-10">
+              <div class="flex items-center gap-4">
+                <div class="p-3 bg-white/10 rounded-lg text-naranja">
+                  <svg xmlns="http://w3.org" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-[10px] text-gray-400 font-bold uppercase ">Llámanos</p>
+                  <p class="text-sm font-bold text-white mt-0.5">+504 9999-9999</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-4">
+                <div class="p-3 bg-white/10 rounded-lg text-naranja">
+                  <svg xmlns="http://w3.org" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-[10px] text-gray-400 font-bold uppercase ">Correo Electrónico</p>
+                  <a href="mailto:jfernandez@multiservicios-eithan.com"
+                    class="text-sm font-bold text-white mt-0.5">jfernandez@multiservicios-eithan.com</a>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-4">
+                <div class="p-3 bg-white/10 rounded-lg text-naranja">
+                  <svg xmlns="http://w3.org" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-[10px] text-gray-400 font-bold uppercase ">Ubicación Norte</p>
+                  <p class="text-sm font-bold text-white mt-0.5">San Pedro Sula, Cortés, Honduras</p>
+                </div>
+              </div>
+            </div>
+
+            <p class="text-[10px] text-white uppercase  font-semibold">
+              Operaciones: Lun a Vie - 8:00 AM a 5:00 PM
+            </p>
+          </div>
+
+          <!-- COLUMNA DERECHA: FORMULARIO INTERACTIVO (Ocupa 3 de 5 columnas en base limpia) -->
+          <form id="formulario-contacto" class="lg:col-span-3 p-8 lg:p-12 space-y-6 bg-white">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Campo: Nombre -->
+              <div class="flex flex-col gap-1.5">
+                <label for="nombre" class="text-[13px] font-bold text-negro uppercase ">Nombre Completo</label>
+                <input type="text" id="nombre" required
+                  class="w-full bg-blanco/40 border border-gray-200 text-negro text-sm rounded-lg p-3.5 outline-none focus:border-naranja focus:bg-white transition duration-200">
+              </div>
+
+              <!-- Campo: Empresa -->
+              <div class="flex flex-col gap-1.5">
+                <label for="empresa" class="text-[13px] font-bold text-negro uppercase ">Empresa / Negocio</label>
+                <input type="text" id="empresa"
+                  class="w-full bg-blanco/40 border border-gray-200 text-negro text-sm rounded-lg p-3.5 outline-none focus:border-naranja focus:bg-white transition duration-200">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Campo: Correo -->
+              <div class="flex flex-col gap-1.5">
+                <label for="correo" class="text-[13px] font-bold text-negro uppercase ">Correo Electrónico</label>
+                <input type="email" id="correo" required
+                  class="w-full bg-blanco/40 border border-gray-200 text-negro text-sm rounded-lg p-3.5 outline-none focus:border-naranja focus:bg-white transition duration-200">
+              </div>
+
+              <!-- Campo: Teléfono -->
+              <div class="flex flex-col gap-1.5">
+                <label for="telefono" class="text-[13px] font-bold text-negro uppercase ">Teléfono Corporativo</label>
+                <input type="tel" id="telefono" required
+                  class="w-full bg-blanco/40 border border-gray-200 text-negro text-sm rounded-lg p-3.5 outline-none focus:border-naranja focus:bg-white transition duration-200">
+              </div>
+            </div>
+
+            <!-- Campo: Mensaje -->
+            <div class="flex flex-col gap-1.5">
+              <label for="mensaje" class="text-[13px] font-bold text-negro uppercase ">Especificaciones del
+                Servicio</label>
+              <textarea id="mensaje" rows="4" required
+                placeholder="Detalle los requerimientos técnicos de mantenimiento, obra civil o logística que requiere..."
+                class="w-full bg-blanco/40 border border-gray-200 text-negro text-sm rounded-lg p-3.5 outline-none focus:border-naranja focus:bg-white transition duration-200 resize-none"></textarea>
+            </div>
+
+            <!-- Botón de Envío utilizando tu Color Verde Institucional para conversión -->
+            <button
+              class="w-full bg-verde text-white font-semibold text-sm py-2.5 px-4 rounded-lg hover:bg-negro transition duration-300 flex items-center justify-center gap-2 group cursor-pointer shadow-md">
+              Enviar Solicitud
+              <svg xmlns="http://w3.org" class="h-4 w-4 transform group-hover:translate-x-1 transition duration-200"
+                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+  </main>
+
+  <!-- FOOTER PEQUEÑO Y MINIMALISTA -->
+  <footer class="bg-negro text-white py-6 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+
+      <!-- Lado Izquierdo: Copyright -->
+      <div class="text-gray-400 text-center sm:text-left">
+        <p>&copy; 2026 <span class="text-white font-semibold">Multiservicios Eithan</span>. Todos los derechos
+          reservados.</p>
+      </div>
+
+      <!-- Lado Derecho: Enlaces Rápidos y Redes -->
+      <div class="flex flex-wrap items-center justify-center gap-6">
+        <div class="flex gap-4 text-white">
+          <a href="#bloque1" class="hover:text-naranja transition duration-200">Inicio</a>
+          <a href="#servicios" class="hover:text-naranja transition duration-200">Servicios</a>
+          <a href="#formulario-contacto" class="hover:text-naranja transition duration-200">Contacto</a>
+        </div>
+
+        <!-- Línea divisoria vertical oculta en móviles -->
+        <span class="hidden sm:inline text-gray-700">|</span>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script></script>
+</body>
+
+</html>
